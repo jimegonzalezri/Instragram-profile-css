@@ -1,0 +1,306 @@
+body {
+  width: 375px;
+  height: 812px;
+  position: relative;
+  flex-direction: column;
+  border: solid black 2px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 5px 5px;
+  border-color: #33ff33;
+  font-family: "calibri", Garamond, "Comic Sans";
+}
+.rectangle24 {
+  height: 41px;
+  width: 375 px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rectangle25 {
+  height: 211px;
+  width: 375px;
+}
+
+.rectangle26 {
+  height: 62px;
+  width: 375px;
+}
+
+.rectangle27 {
+  height: 41px;
+  width: 375px;
+  border: solid gray 0.1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.rectangle28 {
+  height: 334px;
+  width: 375px;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangle29 {
+  height: 86px;
+  width: 375px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h1 {
+  width: 88px;
+  height: 23px;
+  left: 40.52%;
+  right: 14.52%;
+  top: -30%;
+  bottom: 0%;
+  position: absolute;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  font-weight: 1000;
+  letter-spacing: -0.3px;
+  color: #262626;
+}
+
+.nombre {
+  position: absolute;
+  width: 373px;
+  height: 31px;
+  left: 1px;
+  top: 47px;
+  box-sizing: border-box;
+  /*border: solid black 1px;*/
+  /*background-color: #99ffff;*/
+}
+
+.time {
+  height: 41px;
+  width: 92px;
+  left: 0px;
+  right: 0px;
+  top: 30%;
+  font-family: SF Pro text;
+  font-size: 15px;
+  line-height: 18px;
+  align-items: center;
+  position: middle;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+
+.icons {
+  height: 41px;
+  width: 94px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.icons1 {
+  height: 41px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.icons2 {
+  height: 41px;
+  width: 32px;
+  left: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.icons3 {
+  height: 41px;
+  width: 32px;
+  left: 64px;
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  width: 114px;
+  height: 95px;
+  left: 1px;
+  top: 78px;
+  box-sizing: border-box;
+  display: flex;
+  position: absolute;
+}
+
+.profile1 {
+  width: 77px;
+  height: 77px;
+  left: 16px;
+  top: 6px;
+  right: 281px;
+  bottom: 649px;
+  box-sizing: border-box;
+  display: flex;
+  position: absolute;
+}
+
+.zazu {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border-radius: 50px;
+  background-image: url("Zazu.jpeg");
+  background-size: 70px;
+  background-position: center;
+}
+
+.mas {
+  height: 25%;
+  margin-left: 80%;
+  margin-top: 70%;
+}
+
+.statistic {
+  position: absolute;
+  width: 260px;
+  height: 95px;
+  left: 114px;
+  top: 78px;
+  box-sizing: border-box;
+}
+
+.statistic1 {
+  position: absolute;
+  width: 259px;
+  height: 40px;
+  left: 0px;
+  top: 28px;
+  box-sizing: border-box;
+  display: flex;
+  font-size: 20px;
+}
+
+.post {
+  position: absolute;
+  width: 86px;
+  height: 38px;
+  left: 0px;
+  top: 0px;
+  font-weight: 500;
+}
+
+.post1 {
+  width: 40px;
+  height: 34px;
+  top: 23px;
+  left: 46px;
+  align-items: center;
+  display: flex;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.followers {
+  position: relative;
+  width: 86px;
+  height: 38px;
+  left: 74px;
+  right: 0px;
+  top: 0px;
+  font-weight: 500;
+}
+
+.followers1 {
+  width: 65px;
+  height: 34px;
+  top: 23px;
+  left: 101px;
+  align-items: center;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.following {
+  position: relative;
+  width: 86px;
+  height: 38px;
+  left: 74px;
+  right: 0px;
+  top: 0px;
+  font-weight: 500;
+}
+
+.following1 {
+  width: 52px;
+  height: 34px;
+  top: 23px;
+  left: 168px;
+  align-items: center;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.descripcion {
+  width: 373px;
+  height: 85px;
+  position: absolute;
+  left: 1 px;
+  right: 0%;
+  top: 173px;
+  box-sizing: border-box;
+  font-weight: 800;
+}
+
+.editprofile {
+  width: 342px;
+  height: 30px;
+  top: 270px;
+  left: 17px;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #33adff;
+  box-sizing: border-box;
+  position: absolute;
+  box-shadow: 2px 2px;
+  background-color: #79d2a6;
+}
+
+a:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+img.squared {
+  width: 122px;
+  height: 108px;
+}
+
+.below-icons {
+}
+
+img.icon-size {
+  width: 30px;
+  height: 30px;
+}
+
+.likes {
+  width: 100px;
+  height: 100px;
+  bottom: 5%;
+  left: 213px;
+  position: absolute;
+}
